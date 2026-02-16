@@ -24,8 +24,8 @@
     },
 
     "ServerStorage": {
-      "Server": {
-        "$path":"src/Lesson"
+      "Lessons": {
+        "$path":"src/Lessons"
       }
     },
 
