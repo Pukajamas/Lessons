@@ -12,6 +12,9 @@
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
+      },
+      "LessonsActive" : {
+        "$path":"src/LessonsActive"
       }
     },
 
@@ -24,8 +27,8 @@
     },
 
     "ServerStorage": {
-      "Lessons": {
-        "$path":"src/Lessons"
+      "LessonsStorage": {
+        "$path":"src/LessonsStorage"
       }
     },
 
