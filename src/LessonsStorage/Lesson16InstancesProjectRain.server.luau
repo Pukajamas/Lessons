@@ -7,10 +7,11 @@ part.BrickColor = BrickColor.Random()
 part.Anchored = true
 
 while true do
-    task.wait(math.random(0,1))
+    task.wait(math.random(0.1,0.5))
     newPart = part:Clone()
+    newPart.Size = Vector3.new(math.random(1,10), math.random(1,10), math.random(1,10))
     newPart.BrickColor = BrickColor.Random()
-    newPart.Position = Vector3.new(math.random(100,200),math.random(100,200),math.random(100,200))
+    newPart.Position = Vector3.new(math.random(-250,250),200,math.random(-250,250))
     newPart.Parent = game.Workspace.LessonModels
     newPart.Anchored = false
     newPart.Touched:Connect(function(hit)
