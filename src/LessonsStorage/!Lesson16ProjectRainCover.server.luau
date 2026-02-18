@@ -3,7 +3,12 @@ local rainprotection = Instance.new("Part", game.Workspace.LessonModels)
 local rainprotection2 = Instance.new("Part", game.Workspace.LessonModels)
 local rainprotection3 = Instance.new("Part", game.Workspace.LessonModels)
 local rainprotection4 = Instance.new("Part", game.Workspace.LessonModels)
+local count = 0
 while true do
+    count = count + 1
+    if count >= 5 then
+        break
+    end
     rainprotection:Clone()
     rainprotection.Name = "rainprotection"
     rainprotection.Size = Vector3.new(50, 1,50)
@@ -30,4 +35,15 @@ while true do
     rainprotection4.Anchored = true
     task.wait(15)
 end
-
+if rainprotection then
+    rainprotection:Destroy()
+end
+if rainprotection2 then
+    rainprotection2:Destroy()
+end
+if rainprotection3 then
+    rainprotection3:Destroy()
+end
+if rainprotection4 then
+    rainprotection4:Destroy()
+end
