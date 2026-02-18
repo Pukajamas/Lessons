@@ -35,6 +35,7 @@ while true do
     rainprotection4.Anchored = true
     task.wait(15)
 end
+-- Delete the rain protection parts after the loop
 if rainprotection then
     rainprotection:Destroy()
 end

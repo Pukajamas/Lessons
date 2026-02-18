@@ -6,6 +6,7 @@ game.Players.PlayerAdded:Connect(function(player)
         humanoid.WalkSpeed = 32
     end)
 end)
+-- rain spawning code
 local part = Instance.new("Part", game.Workspace.LessonModels)
 part.Name = "PlayerPart4"
 part.Position = Vector3.new(0, 10, 0)
@@ -33,6 +34,7 @@ while true do
     end)
     newPart.Name = "PlayerPart5"
 end
+-- Delete the rain parts after the loop
 for _, part in pairs(game.Workspace.LessonModels:GetChildren()) do
         if part.Name == "PlayerPart5" then
             part:Destroy()
