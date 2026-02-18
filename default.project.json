@@ -29,6 +29,9 @@
     "ServerStorage": {
       "LessonsStorage": {
         "$path":"src/LessonsStorage"
+      },
+      "ImportantScripts": {
+        "$path":"src/ImportantScripts"
       }
     },
 
