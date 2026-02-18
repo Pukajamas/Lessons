@@ -52,3 +52,4 @@ print("You Survived the Rain!")
 --   end
 --end
 -- I put this into another script to delete all the rain parts because I couldn't get it to work in the same script. I will try to figure out how to do it in the same script later.
+-- need to make these for loops

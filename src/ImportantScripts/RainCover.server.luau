@@ -48,3 +48,5 @@ end
 if rainprotection4 then
     rainprotection4:Destroy()
 end
+
+--need to make these for loops
